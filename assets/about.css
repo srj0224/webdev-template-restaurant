@@ -1,0 +1,31 @@
+
+.infohover {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #323232;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  opacity:1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+padding:20px 24px;
+}
